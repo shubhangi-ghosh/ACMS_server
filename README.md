@@ -31,7 +31,7 @@ USER TABLE:
 BUILDING TABLE:
  id        | address  | latitude       | longitude          | radius  
  ------------- | :-------------:| :-------------:| :-------------:| -----
- string | string | string | string | string 
+ string | string | Number | Number | Number 
  
 ## Routes
 ANDROID ROUTES:
