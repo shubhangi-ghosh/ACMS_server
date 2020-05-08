@@ -45,6 +45,7 @@ WEBAPP ROUTES:
  ------------- |:-------------:| -----
  **/building/:id/center** | GET request | To send building center of corressponding building id
  **/view/:building/allUsers** | GET request | To send all users info of specific building id
+ **/building/:building_id/user** | POST request | To search a single user through name in building
 
 ## References
 - https://www.youtube.com/watch?v=ycja50TzjoU  
