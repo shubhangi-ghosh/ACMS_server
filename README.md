@@ -16,7 +16,7 @@ Build a web tool which shows a building boundary and all the people moving insid
 To run this server into [VScode](https://code.visualstudio.com/), proceed as follows:
 
 1. Open command palette (**ctrl+shift+p**) > git clone.
-2. Enter URL: https://github.com/Shrutikatyal/iExplore.git
+2. Enter URL: https://github.com/shubhangi-ghosh/ACMS_server.git
 3. Click **Clone**.
 4. Open terminal (**ctrl+`**) > Move to server folder(**cd server**).
 5. Run **npm install**.
@@ -54,3 +54,4 @@ WEBAPP ROUTES:
 - https://www.udemy.com/course/the-web-developer-bootcamp/
 - https://stackoverflow.com/questions/33305623/mongoose-create-document-if-not-exists-otherwise-update-return-document-in
 - https://www.youtube.com/watch?v=iJtOoeM_fS8&feature=youtu.be&t=368
+- https://medium.com/@xinganwang/a-practical-guide-to-cors-51e8fd329a1f
