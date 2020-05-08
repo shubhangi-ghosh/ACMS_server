@@ -28,7 +28,12 @@ router.get("/buildingsInfo", function(req, res){
 //Update location of user
 //altitude also available
 router.put('/updateLocation/:userID', function(req,res){
-    User.findOneAndUpdate({"id": req.params.userID}, {$set:{"name": req.body.name, "latitude": parseInt(req.body.latitude,10), "longitude": parseInt(req.body.longitude,10), "buildingId": req.body.buildingId}}, {upsert: true, new: true}, function(err, user){
+    var Name= req.body.name
+    var Latitude = parseInt(req.body.latitude,10)
+    var Longitude = parseInt(req.body.longitude,10)
+    var BuildingID = req.body.buildingId
+    console.log(typeof(Longitude));
+    User.findOneAndUpdate({"id": req.params.userID}, {$set:{"name": Name, "latitude": Latitude, "longitude": Longitude, "buildingId": BuildingID}}, {upsert: true, new: true}, function(err, user){
         if (err) {
             console.log("android update location error");
             res.status(404).send();

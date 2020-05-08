@@ -7,7 +7,7 @@
         address: "Anishas home", 
         latitude : 28.7112,
         longitude : 77.1222,
-        radius: 10
+        radius: 20
     },
     {
         id : "2",             
@@ -22,8 +22,14 @@
         latitude : 28.6009,
         longitude : 77.3146,
         radius : 150
+    },
+    {
+        id : "4",
+        address: "Shrutis home",
+        latitude : 28.6198,
+        longitude : 77.0506,
+        radius : 50
     }
-
 
  ]
 

@@ -65,7 +65,7 @@ mongoose.connect(databaseUrl, function (err) {
 
 //=========================================
 //To initialize db: seedDB 
- //seedDb();
+//seedDb();
 //=========================================
 
 app.listen(3000, function(){
