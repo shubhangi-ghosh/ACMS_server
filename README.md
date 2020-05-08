@@ -37,14 +37,14 @@ BUILDING TABLE:
 ANDROID ROUTES:
  Route        | Type          | Desc  
  ------------- |:-------------:| -----
- **/updateLocation/:userID** | PUT request | To update user location in user DB (sent from android app) 
- **/buildingsInfo** | GET request | To send building data (id, lat, long, radius) for geofencing 
+ **/updateLocation/:userID** | PUT request | To update user location in user DB  
+ **/buildingsInfo** | GET request | To send building info for geofencing 
  
 WEBAPP ROUTES:
  Route        | Type          | Desc  
  ------------- |:-------------:| -----
- **/building/:id/center** | GET request | To send building center of corressponding id (in params)
- **/view/:building/allUsers** | GET request | To send users of specific buildingid (in params)
+ **/building/:id/center** | GET request | To send building center of corressponding building id
+ **/view/:building/allUsers** | GET request | To send all users info of specific building id
 
 ## References
 - https://www.youtube.com/watch?v=ycja50TzjoU  
