@@ -54,3 +54,4 @@ WEBAPP ROUTES:
 - https://www.udemy.com/course/the-web-developer-bootcamp/
 - https://stackoverflow.com/questions/33305623/mongoose-create-document-if-not-exists-otherwise-update-return-document-in
 - https://www.youtube.com/watch?v=iJtOoeM_fS8&feature=youtu.be&t=368
+- https://medium.com/@xinganwang/a-practical-guide-to-cors-51e8fd329a1f
