@@ -6,8 +6,9 @@ var mongoose              = require("mongoose");
 //Singlar variable object to insert/update : user
 var userSchema= new mongoose.Schema({
     id: String,
-    latitude: String,
-    longitude: String,
+    name: String,
+    latitude: Number,
+    longitude: Number,
     buildingId: String
 });
 //attach schema and create a structure User object model
