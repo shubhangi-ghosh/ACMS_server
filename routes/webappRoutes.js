@@ -35,6 +35,20 @@ router.get("/building/:id/center", function(req, res){
     });
 });
 
+//search  user in a building.
+router.post("/building/:building_id/user", function(req, res){
+    User.find({buildingId : req.params.building_id, name : req.body.name}, {_id : 0, id : 1,name : 1, longitude : 1, latitude : 1}, function(err, user){
+        if(err){
+            console.log("Error in find user");
+            res.status(404).send();
+        }
+        else{
+            console.log(user);
+            res.status(200).send(user);
+        }
+    });
+});
+
 
 /*
 //Load building form for manager
