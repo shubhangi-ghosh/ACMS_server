@@ -4,6 +4,12 @@ var express  = require("express"),
     Building = require("../models/building"),
     router   = express.Router();
 
+/*
+router.get("/try/:id", function(req,res){
+    console.log(typeof(parseInt(req.params.id, 10)));
+
+});*/
+
 
 //Send buildings info
 router.get("/buildingsInfo", function(req, res){
@@ -22,7 +28,7 @@ router.get("/buildingsInfo", function(req, res){
 //Update location of user
 //altitude also available
 router.put('/updateLocation/:userID', function(req,res){
-    User.findOneAndUpdate({"id": req.params.userID}, {$set:{"name": req.body.name, "latitude": req.body.latitude, "longitude": req.body.longitude, "buildingId": req.body.buildingId}}, {upsert: true, new: true}, function(err, user){
+    User.findOneAndUpdate({"id": req.params.userID}, {$set:{"name": req.body.name, "latitude": parseInt(req.body.latitude,10), "longitude": parseInt(req.body.longitude,10), "buildingId": req.body.buildingId}}, {upsert: true, new: true}, function(err, user){
         if (err) {
             console.log("android update location error");
             res.status(404).send();
