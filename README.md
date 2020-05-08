@@ -24,14 +24,14 @@ To run this server into [VScode](https://code.visualstudio.com/), proceed as fol
 
 ## Database
 USER TABLE:
- id       | latitude          | longitude  | buildingId
- ------------- |:-------------:| :-------------:| -----
- string | string | string | string
+ id       |  name | latitude          | longitude  | buildingId
+ ------------- |:-------------:|:-------------:| :-------------:| -----
+ String | String | Number | Number | String
  
 BUILDING TABLE:
  id        | address  | latitude       | longitude          | radius  
  ------------- | :-------------:| :-------------:| :-------------:| -----
- string | string | Number | Number | Number 
+ String | String | Number | Number | Number 
  
 ## Routes
 ANDROID ROUTES:
