@@ -6,7 +6,7 @@ var express  = require("express"),
 
 //Locations of all users from DBS of building id :building
 router.get("/view/:building/allUsers", function(req, res){
-    User.find({buildingId:req.params.building},{ _id : 0,id : 1, longitude : 1, latitude : 1 },function(err, users){
+    User.find({buildingId:req.params.building},{ _id : 0,id : 1,name : 1, longitude : 1, latitude : 1 },function(err, users){
         if(err){
             console.log("Error in find all users");
             res.status(404).send();
