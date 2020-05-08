@@ -29,8 +29,8 @@ router.get("/buildingsInfo", function(req, res){
 //altitude also available
 router.put('/updateLocation/:userID', function(req,res){
     var Name= req.body.name
-    var Latitude = parseInt(req.body.latitude,10)
-    var Longitude = parseInt(req.body.longitude,10)
+    var Latitude = parseFloat(req.body.latitude,10)
+    var Longitude = parseFloat(req.body.longitude,10)
     var BuildingID = req.body.buildingId
     console.log(typeof(Longitude));
     User.findOneAndUpdate({"id": req.params.userID}, {$set:{"name": Name, "latitude": Latitude, "longitude": Longitude, "buildingId": BuildingID}}, {upsert: true, new: true}, function(err, user){
