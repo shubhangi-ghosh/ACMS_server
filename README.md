@@ -16,7 +16,7 @@ Build a web tool which shows a building boundary and all the people moving insid
 To run this server into [VScode](https://code.visualstudio.com/), proceed as follows:
 
 1. Open command palette (**ctrl+shift+p**) > git clone.
-2. Enter URL: https://github.com/Shrutikatyal/iExplore.git
+2. Enter URL: https://github.com/shubhangi-ghosh/ACMS_server.git
 3. Click **Clone**.
 4. Open terminal (**ctrl+`**) > Move to server folder(**cd server**).
 5. Run **npm install**.
