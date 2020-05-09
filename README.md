@@ -52,11 +52,11 @@ WEBAPP ROUTES:
 <details>
   <summary><b>Database</b></summary>
   <br />
-  There are two types of databases SQL and NOSQL
-1. SQL- <br/>
+  There are two types of databases SQL and NOSQL <br/>
+<li> SQL- <br/>
  - SQL databases are primarily referred to as Relational Databases (RDBMS).They are table-based databases.<br/>
  - SQL databases use structured query language (SQL) for defining and manipulating data.They have predefined schema.<br/>
- - Relational databases like MySQL Database, Oracle, Ms SQL Server, Sybase, etc. use SQL.<br/>
+ - Relational databases like MySQL Database, Oracle, Ms SQL Server, Sybase, etc. use SQL.<br/></li>
 2. NOSQL-<br/>
  - NoSQL databases are primarily referred to as Non-relational or Distributed Databases.They are document based, key-value pairs, graph databases.<br/>
  - NoSQL database stands for "Not Only SQL" or "Not SQL.”.They  have dynamic schema.<br/>
