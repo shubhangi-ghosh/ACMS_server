@@ -47,6 +47,32 @@ WEBAPP ROUTES:
  **/view/:building/allUsers** | GET request | To send all users info of specific building id
  **/building/:building_id/user** | POST request | To search a single user through name in building
 
+### Development Decisions
+*(Click to expand)*
+<details>
+  <summary><b>Database</b></summary>
+  <br />
+  There are two types of databases SQL and NOSQL
+1. SQL- <br/>
+ - SQL databases are primarily referred to as Relational Databases (RDBMS).They are table-based databases.<br/>
+ - SQL databases use structured query language (SQL) for defining and manipulating data.They have predefined schema.<br/>
+ - Relational databases like MySQL Database, Oracle, Ms SQL Server, Sybase, etc. use SQL.<br/>
+2. NOSQL-<br/>
+ - NoSQL databases are primarily referred to as Non-relational or Distributed Databases.They are document based, key-value pairs, graph databases.<br/>
+ - NoSQL database stands for "Not Only SQL" or "Not SQL.”.They  have dynamic schema.<br/>
+ - MongoDB, Redis, etc use NOSQL.<br/>
+<br/><br />
+  <b><u>Our solution:</u></b><br />
+ We are using NoSQL database MongoDB Atlas.<br/>
+- NOSQL gives the flexibility to change data schema without modifying any of the existing data.<br/>
+- The database doesn’t require a database administrator.<br/>
+- It’s high-performing for simple queries.<br/>
+- Highly flexible as new columns or fields can be added on MongoDB without affecting existing rows or application performance.
+
+  <br /><br />
+</details>
+
+
 ## References
 - https://www.youtube.com/watch?v=ycja50TzjoU  
 - https://www.youtube.com/watch?v=B8RSMBSzFuA&t=120s 
