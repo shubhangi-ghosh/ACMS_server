@@ -66,10 +66,13 @@ WEBAPP ROUTES:
 
   <b><u>Our solution:</u></b><br />
  We are using NoSQL database MongoDB Atlas.<br />
-     - NOSQL gives the flexibility to change data schema without modifying any of the existing data.<br />
-     - The database doesn’t require a database administrator.<br />
-     - It’s high-performing for simple queries.<br />
-     - Highly flexible as new columns or fields can be added on MongoDB without affecting existing rows or application performance.<br />
+ <ul>
+   <li> NOSQL gives the flexibility to change data schema without modifying any of the existing data.</li>
+   <li> The database doesn’t require a database administrator.</li>
+   <li> It’s high-performing for simple queries.</li>
+   <li> Highly flexible as new columns or fields can be added on MongoDB without affecting existing rows or application performance.</li>
+</ul>
+    
   <br /><br />
 </details>
 
