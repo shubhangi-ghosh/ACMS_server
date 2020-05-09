@@ -97,6 +97,33 @@ WEBAPP ROUTES:
   <br /><br />
 </details>
 
+<details>
+  <summary><b>Access mongoDB in NodeJs</b></summary>
+  <br />
+  MongoDB is a NoSQL database system which stores data in the form of BSON documents.
+ <br />
+
+  1. In terms of Node.js, there are 2 options mongodb the native driver for interacting with a mongodb instance and mongoose an Object modeling tool for MongoDB.<br />
+  2. Mongoose is built on top of the MongoDB driver to provide programmers with a way to model their data,  and gives us functionality to access the mongoDB data with easily understandable queries.
+<br/> <br />
+
+  <b><u>Our solution:</u></b><br />
+ We are using MONGOOSE for easier access and manipulation.
+    
+  <br /><br />
+</details>
+
+<details>
+  <summary><b>CORS: </b>Cross-Origin Resource Sharing </summary>
+  <br />
+  We are developing the frontend web app in angular and so the webapp is running on  a different port from our backend server. To enable CORS for a general CORS request, we are adding the following headers: <br />
+
+  1. Access-Control-Allow-Origin<br />
+  2. Access-Control-Allow-Methods<br />
+  3. Access-Control-Allow-Headers<br />
+<br/> <br />
+</details>
+
 ## References
 - https://www.youtube.com/watch?v=ycja50TzjoU  
 - https://www.youtube.com/watch?v=B8RSMBSzFuA&t=120s 
