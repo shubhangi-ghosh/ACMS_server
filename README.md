@@ -61,7 +61,7 @@ WEBAPP ROUTES:
   2. <b> NOSQL </b> <br />
      - NoSQL databases are primarily referred to as Non-relational or Distributed Databases.They are document based, key-value pairs, graph databases.<br />
      - NoSQL database stands for "Not Only SQL" or "Not SQL.”.They  have dynamic schema.<br />
-     - MongoDB, Redis, etc use NOSQL.<br />
+     - MongoDB, Redis, etc use NOSQL.
 <br/> <br />
 
   <b><u>Our solution:</u></b><br />
@@ -76,6 +76,26 @@ WEBAPP ROUTES:
   <br /><br />
 </details>
 
+<details>
+  <summary><b>NodeJS Frameworks</b></summary>
+  <br />
+  Node.js frameworks are mostly used because of their productivity, scalability and speed. There are many frameworks available.
+<br/> <br />
+
+  <b><u>Our solution:</u></b><br />
+        We are using EXPRESS framework:
+<br />
+ <ul>
+   <li> Express.js is a fast, minimalist web framework built on Node.js which behaves like a middleware to help manage our servers and routes.</li>
+   <li> It’s robust API allows users to configure routes to send/receive requests between the front-end and the database (acting as a HTTP server framework). </li>
+   <li> It supports a lot of other packages and other template engines such as Pug, Mustache, EJS.
+</li>
+   <li> It is probably the most popular Node.js framework available for the JavaScript community on GitHub with over 41,000 stars [Github stars: 41,036].
+</li>
+</ul>
+    
+  <br /><br />
+</details>
 
 ## References
 - https://www.youtube.com/watch?v=ycja50TzjoU  
