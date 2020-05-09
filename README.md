@@ -53,11 +53,12 @@ WEBAPP ROUTES:
   <summary><b>Database</b></summary>
   <br />
   There are two types of databases SQL and NOSQL <br/>
-<li> SQL- <br/>
+ <ol>
+ <li> SQL <br/> </li>
  - SQL databases are primarily referred to as Relational Databases (RDBMS).They are table-based databases.<br/>
  - SQL databases use structured query language (SQL) for defining and manipulating data.They have predefined schema.<br/>
- - Relational databases like MySQL Database, Oracle, Ms SQL Server, Sybase, etc. use SQL.<br/></li>
-2. NOSQL-<br/>
+ - Relational databases like MySQL Database, Oracle, Ms SQL Server, Sybase, etc. use SQL.<br/>
+<li> NOSQL-<br/> </li>
  - NoSQL databases are primarily referred to as Non-relational or Distributed Databases.They are document based, key-value pairs, graph databases.<br/>
  - NoSQL database stands for "Not Only SQL" or "Not SQL.”.They  have dynamic schema.<br/>
  - MongoDB, Redis, etc use NOSQL.<br/>
@@ -68,7 +69,7 @@ WEBAPP ROUTES:
 - The database doesn’t require a database administrator.<br/>
 - It’s high-performing for simple queries.<br/>
 - Highly flexible as new columns or fields can be added on MongoDB without affecting existing rows or application performance.
-
+ </ol>
   <br /><br />
 </details>
 
