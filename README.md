@@ -29,9 +29,9 @@ USER TABLE:
  String | String | Number | Number | String
  
 BUILDING TABLE:
- id        | address  | latitude       | longitude          | radius  
+ id        | name | address  | latitude       | longitude          | radius  
  ------------- | :-------------:| :-------------:| :-------------:| -----
- String | String | Number | Number | Number 
+ String | String | String | Number | Number | Number 
  
 ## Routes
 ANDROID ROUTES:
