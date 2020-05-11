@@ -13,10 +13,25 @@ router.get("/view/:building/allUsers", function(req, res){
         }
         else{
             console.log(users);
-            res.status(200).send(users);
+            res.status(200).send(users); 
         }
     });
 });
+
+//All users name in a building
+router.get("/building/:building_id/allusername", function(req, res){
+    User.find({buildingId : req.params.building_id}, {_id : 0, name : 1,}, function(err, user){
+        if(err){
+            console.log("Error in find all users name");
+            res.status(404).send();
+        }
+        else{
+            console.log(user);
+            res.status(200).send(user);
+        }
+    });
+});
+
 
 //center of building route :: Anisha's home
 //lat-28.7112, long-77.1222 
@@ -35,9 +50,24 @@ router.get("/building/:id/center", function(req, res){
     });
 });
 
+//All building name
+router.get("/building/building_name", function(req, res){
+    Building.find({}, {_id : 0, id : 1, name : 1}, function(err, building){
+        if(err){
+            console.log("error in find building");
+            res.status(404).send();
+        }
+        else{
+            console.log(building);
+            res.status(200).send(building);
+        }
+
+    });
+});
+
 //search  user in a building.
-router.post("/building/:building_id/user", function(req, res){
-    User.find({buildingId : req.params.building_id, name : req.body.name}, {_id : 0, id : 1,name : 1, longitude : 1, latitude : 1}, function(err, user){
+router.post("/building/:building_id/:userid", function(req, res){
+    User.find({buildingId : req.params.building_id, id : req.params.userid}, {_id : 0, longitude : 1, latitude : 1}, function(err, user){
         if(err){
             console.log("Error in find user");
             res.status(404).send();

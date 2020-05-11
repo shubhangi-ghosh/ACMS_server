@@ -8,6 +8,7 @@ var mongoose = require("mongoose");
 //latitude and longitude 
 var buildingSchema = new mongoose.Schema({
     id : String,  
+    name : String,
     address: String,
     latitude : Number,
     longitude : Number,
