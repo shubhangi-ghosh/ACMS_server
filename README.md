@@ -30,7 +30,7 @@ USER TABLE:
  
 BUILDING TABLE:
  id        | name | address  | latitude       | longitude          | radius  
- ------------- | :-------------:| :-------------:| :-------------:| -----
+ ------------- | :-------------:| :-------------:| :-------------:| :-------------: | ------
  String | String | String | Number | Number | Number 
  
 ## Routes
