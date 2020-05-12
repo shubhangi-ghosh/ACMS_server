@@ -43,11 +43,11 @@ ANDROID ROUTES:
 WEBAPP ROUTES:
  Route        | Type          | Desc  
  ------------- |:-------------:| -----
- **/building/:id/center** | GET request | To send building center of corressponding building id
+ **/view/:building/center** | GET request | To send building center of corressponding building id
  **/view/:building/allUsers** | GET request | To send all users info of specific building id
- **/building/:building_id/allusername** | GET request | To get all users name in a particular building
- **/building/building_name** | GET request | To get all building id's along with their name
- **/building/:building_id/:userid** | POST request | To get location of single user in a building by searching on the basis of user id
+ **/view/:building/allUserName** | GET request | To get all users name and id in a particular building
+ **/view/allBuildingName** | GET request | To get all building id's along with their name
+ **/view/:building/:userId** | GET request | To get location of single user in a building by searching on the basis of user id
 
 ### Development Decisions
 *(Click to expand)*

@@ -19,8 +19,8 @@ router.get("/view/:building/allUsers", function(req, res){
 });
 
 //All users name in a building
-router.get("/building/:building_id/allusername", function(req, res){
-    User.find({buildingId : req.params.building_id}, {_id : 0, name : 1,}, function(err, user){
+router.get("/view/:building/allUserName", function(req, res){
+    User.find({buildingId : req.params.building}, {_id : 0, id : 1,name : 1,}, function(err, user){
         if(err){
             console.log("Error in find all users name");
             res.status(404).send();
@@ -37,8 +37,8 @@ router.get("/building/:building_id/allusername", function(req, res){
 //lat-28.7112, long-77.1222 
 //added through seed.js 
 
-router.get("/building/:id/center", function(req, res){
-    Building.find({id : req.params.id},{ _id:0,longitude : 1, latitude : 1 }, function(err, center){
+router.get("/view/:building/center", function(req, res){
+    Building.find({id : req.params.building},{ _id:0,longitude : 1, latitude : 1 }, function(err, center){
         if(err){
             console.log("Error in find center");
             res.status(404).send();
@@ -51,7 +51,7 @@ router.get("/building/:id/center", function(req, res){
 });
 
 //All building name
-router.get("/building/building_name", function(req, res){
+router.get("/view/allBuildingName", function(req, res){
     Building.find({}, {_id : 0, id : 1, name : 1}, function(err, building){
         if(err){
             console.log("error in find building");
@@ -66,8 +66,8 @@ router.get("/building/building_name", function(req, res){
 });
 
 //search  user in a building.
-router.post("/building/:building_id/:userid", function(req, res){
-    User.find({buildingId : req.params.building_id, id : req.params.userid}, {_id : 0, longitude : 1, latitude : 1}, function(err, user){
+router.get("/view/:building/:userId", function(req, res){
+    User.find({buildingId : req.params.building, id : req.params.userId}, {_id : 0, longitude : 1, latitude : 1}, function(err, user){
         if(err){
             console.log("Error in find user");
             res.status(404).send();

@@ -4,7 +4,7 @@
  building_array=[
     {
         id : "1",             
-        name: "Anishas home", 
+        name: "Anisha's home", 
         address: "Rohini",
         latitude : 28.7112,
         longitude : 77.1222,
@@ -12,7 +12,7 @@
     },
     {
         id : "2",             
-        name: "Priyankas home", 
+        name: "Priyanka's home", 
         address: "Dwarka",
         latitude : 28.5754,
         longitude : 77.2425,
@@ -20,7 +20,7 @@
     },
     {
         id : "3",
-        name: "Shubhangis home",
+        name: "Shubhangi's home",
         address: "Noida",
         latitude : 28.6009,
         longitude : 77.3146,
@@ -28,7 +28,7 @@
     },
     {
         id : "4",
-        name: "Shrutis home",
+        name: "Shruti's home",
         address: "subhash nagar",
         latitude : 28.6198,
         longitude : 77.0506,
