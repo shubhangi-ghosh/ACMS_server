@@ -1,4 +1,4 @@
-# INDOOR NAVIGATION SYSTEM SERVER
+# iExplore - INDOOR NAVIGATION SYSTEM SERVER 
 Server for GPS viewer application developed under ACMS (Amazon Campus Mentorship Series) project.
 
 ### DESCRIPTION
