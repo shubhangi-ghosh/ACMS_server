@@ -5,8 +5,9 @@ Server for GPS viewer application developed under ACMS (Amazon Campus Mentorship
 Build a web tool which shows a building boundary and all the people moving inside that building. It will capture the movement data using an app which will be installed on the mobile devices of all those people, and that app will keep sending location information to a server periodically. The location accuracy should not be more than 5 meters
 
 ### Built With
-* [Node.js](https://nodejs.org/en/) Express Framework
-* [MongoDB](https://account.mongodb.com/account/login?n=%2Fv2%2F5e8343fb691e4543801d0978&nextHash=%23metrics%2FreplicaSet%2F5e8351951b6cc014eb2fd163%2Fexplorer%2Ftest%2Fposts%2Ffind)
+* [Node.js](https://nodejs.org/en/) - Javascript server side runtime environment
+* Express Framework
+* [MongoDB](https://account.mongodb.com/account/login?n=%2Fv2%2F5e8343fb691e4543801d0978&nextHash=%23metrics%2FreplicaSet%2F5e8351951b6cc014eb2fd163%2Fexplorer%2Ftest%2Fposts%2Ffind) - NoSQL database
 
 ### Prerequisites
 1. Node.js
